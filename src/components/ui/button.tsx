@@ -18,6 +18,10 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Web3 specific variants
+        wallet: "glass-card text-foreground hover:glow-primary hover:text-primary transition-all duration-300",
+        hero: "bg-primary text-primary-foreground hover:glow-primary font-semibold px-8 py-3 text-base",
+        glass: "glass-card text-foreground hover:bg-white/5 hover:border-primary/50 transition-all duration-300",
       },
       size: {
         default: "h-10 px-4 py-2",
